@@ -2,6 +2,38 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.header-section{
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+
+}
+.header-width{
+    width: 20%;
+    padding-left: 5%;
+}
+#header-image{
+    margin-top: 6px;
+    margin-left: 70%;
+}
+.header-width h3{
+    color: tomato;
+    margin-top: 65px;
+    font-style:italic;
+    font-weight: 400;
+}
+.button-div{
+    margin-top: 40px;
+    margin-left: 30%;
+}
+#header-button{
+    text-decoration: none;
+    background-image: linear-gradient( #da8138 0%, #ff3c00 100%);
+    padding: 10px 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    color: white;
+}
 .flex-section{
     display: flex;
 }
@@ -31,7 +63,7 @@ body{
 }
 .order-button{
       text-decoration: none;
-      background: linear-gradient(to bottom, #ff8f33 0%, #ff3c00 100%);
+      background-image: linear-gradient( #da8138 0%, #ff3c00 100%);
       padding: 15px 25px;
       font-size: 14px;
       border-radius: 50px;
@@ -39,7 +71,7 @@ body{
 }
 .contact-button{
       text-decoration: none;
-      background: linear-gradient(to bottom, #ff8f33 0%, #ff3c00 100%);
+      background-image: linear-gradient( #da8138 0%, #ff3c00 100%);
       padding: 15px 35px;
       font-size: 14px;
       border-radius: 50px;
@@ -78,10 +110,6 @@ body{
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-
-
-
 footer{
     text-align: center;
     background-color:#0b0e17;
@@ -96,5 +124,5 @@ footer h2{
     color: #5b5b5b;
 }
 footer h2 span{
-    color:#ff8f33
+    color:#ff8f33;
 }
