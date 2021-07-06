@@ -23,7 +23,7 @@ body{
     color: rgb(82, 80, 80);
 }
 .half-width h1 span{
-    color: orange;
+    color: #ff8f33;
     word-spacing: 20px;
 }
 .half-width p{
@@ -48,4 +48,40 @@ body{
 .contact-sec-bg{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+}
+
+
+
+
+
+.my-recipies{
+    text-align: center;
+    width: 50%;
+    padding: 5% 25% 0 25%;
+}
+.my-recipies h2{
+    font-size: 30px;
+    color: rgb(82, 80, 80);
+}
+.my-recipies p{
+    color: rgb(143, 142, 142);
+}
+
+
+.list-of-recipies{
+    display: flex;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.list-of-recipies img{
+    width: 100%;
+}
+.list-of-recipies p{
+    color: rgb(143, 142, 142);
+}
+.recipies{
+    margin: 2%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
