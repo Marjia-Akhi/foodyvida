@@ -109,7 +109,38 @@ body{
     margin: 2%;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
 }
+
+
+.popularity-section{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.pupalarity-width{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pupalarity-padding{
+    padding-left: 12%;
+}
+.pupalarity-margin h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50%;
+}
+.pupalarity-margin p{
+    color: rgb(143, 142, 142);
+    font-size: 12px;
+}
+
+
 footer{
     text-align: center;
     background-color:#0b0e17;
