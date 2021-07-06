@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.flex-section{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    padding: 5%;
+    word-spacing: 5px;
+}
+.half-width img{
+    width:100%
+}
+.half-width h1{
+    font-size: 50px;
+    line-height: 60%;
+    color: rgb(82, 80, 80);
+}
+.half-width h2{
+    font-size: 30px;
+    color: rgb(82, 80, 80);
+}
+.half-width h1 span{
+    color: orange;
+    word-spacing: 20px;
+}
+.half-width p{
+    color: rgb(143, 142, 142);
+}
+.order-button{
+      text-decoration: none;
+      background: linear-gradient(to bottom, #ff8f33 0%, #ff3c00 100%);
+      padding: 15px 25px;
+      font-size: 14px;
+      border-radius: 50px;
+      color: white;
+}
+.contact-button{
+      text-decoration: none;
+      background: linear-gradient(to bottom, #ff8f33 0%, #ff3c00 100%);
+      padding: 15px 35px;
+      font-size: 14px;
+      border-radius: 50px;
+      color: white;
+}
+.contact-sec-bg{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
