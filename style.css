@@ -49,11 +49,6 @@ body{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
 }
-
-
-
-
-
 .my-recipies{
     text-align: center;
     width: 50%;
@@ -66,8 +61,6 @@ body{
 .my-recipies p{
     color: rgb(143, 142, 142);
 }
-
-
 .list-of-recipies{
     display: flex;
     width: 90%;
@@ -84,4 +77,24 @@ body{
     margin: 2%;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color:#0b0e17;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+footer p{
+    color: white;
+}
+footer h2{
+    color: #5b5b5b;
+}
+footer h2 span{
+    color:#ff8f33
 }
